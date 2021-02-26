@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_marginHorizontal="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="60dp"
+        app:srcCompat="@drawable/title" />
+
+    <Button
+        android:id="@+id/btnStudy"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/press_effect"
+        android:layout_marginVertical="10dp"
+        android:textSize="26sp"
+        android:textColor="@color/white"
+        android:text="@string/btnStudyStr" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/press_effect"
+        android:layout_marginVertical="20dp"
+        android:textSize="26sp"
+        android:textColor="@color/white"
+        android:text="@string/btnAddStr" />
+
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:background="@drawable/press_effect"
+        android:layout_marginVertical="10dp"
+        android:textSize="26sp"
+        android:textColor="@color/white"
+        android:text="@string/btnListStr" />
+</LinearLayout>

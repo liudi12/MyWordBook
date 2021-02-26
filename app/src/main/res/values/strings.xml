@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MyWordBook</string>
+
+    <string name="btnStudyStr">学　習</string>
+    <string name="btnAddStr">追加カード</string>
+    <string name="btnListStr">単 語 帳</string>
+
+    <string name="txtPatternStr">学習方法</string>
+    <string name="rbtPatterAStr">日本語 -> 中国語</string>
+    <string name="rbtPatterBStr">中国語 -> 日本語</string>
+    <string name="txtOrderStr">単語順序</string>
+    <string name="rbtOrderAStr">ランダム</string>
+    <string name="rbtOrderBStr">登録順（昇順）</string>
+    <string name="rbtOrderCStr">登録順（降順）</string>
+    <string name="btnStartStr">学 習 GO !</string>
+
+    <string name="btnAnswerStr">答 え</string>
+    <string name="btnPrevStr">◀︎ 前へ</string>
+    <string name="btnNextStr">次へ ▶︎</string>
+
+    <string name="txtMsgStr">単語を追加しましょう！</string>
+    <string name="edtJapaneseStr">日本語：</string>
+    <string name="edtChineseStr">中国語：</string>
+    <string name="edtHint">ここに入力</string>
+    <string name="btnCloseStr">閉じる</string>
+
+    <string name="txtListTitle">登録済み単語一覧</string>
+    <string name="empty">データが空です</string>
+
+
+</resources>

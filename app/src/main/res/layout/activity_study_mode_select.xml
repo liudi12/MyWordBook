@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="50dp"
+    tools:context=".StudyModeSelectActivity">
+
+    <TextView
+        android:id="@+id/txtPattern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/darkBlue"
+        android:text="@string/txtPatternStr" />
+
+    <RadioGroup
+        android:id="@+id/rgPattern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp" >
+
+        <RadioButton
+            android:id="@+id/rbtPatternA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:checked="true"
+            android:text="@string/rbtPatterAStr" />
+
+        <RadioButton
+            android:id="@+id/rbtPatternB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/rbtPatterBStr" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/darkBlue"
+        android:text="@string/txtOrderStr" />
+
+    <RadioGroup
+        android:id="@+id/rgOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="40dp">
+
+        <RadioButton
+            android:id="@+id/rbtOrderA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:checked="true"
+            android:text="@string/rbtOrderAStr" />
+
+        <RadioButton
+            android:id="@+id/rbtOrderB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:textSize="20sp"
+            android:text="@string/rbtOrderBStr" />
+
+        <RadioButton
+            android:id="@+id/rbtOrderC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/rbtOrderCStr" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@drawable/press_effect"
+        android:text="@string/btnStartStr" />
+</LinearLayout>
