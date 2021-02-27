@@ -1,4 +1,4 @@
-# 簡易仕様書
+# <div align=center>簡易仕様書</div>
 <div align=center><img height="100" src="https://github.com/liudi12/MyWordBook/blob/master/app/src/main/res/drawable/title.png"/></div>  
   
 アプリ名：私の単語帳  
