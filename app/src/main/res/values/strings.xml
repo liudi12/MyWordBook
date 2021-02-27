@@ -2,7 +2,7 @@
     <string name="app_name">MyWordBook</string>
 
     <string name="btnStudyStr">学　習</string>
-    <string name="btnAddStr">追加カード</string>
+    <string name="btnAddStr">追　加</string>
     <string name="btnListStr">単 語 帳</string>
 
     <string name="txtPatternStr">学習方法</string>
