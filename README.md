@@ -1,10 +1,10 @@
 # <div align=center>簡易仕様書</div>
 <div align=center><img height="100" src="https://github.com/liudi12/MyWordBook/blob/master/app/src/main/res/drawable/title.png"/></div>  
   
-アプリ名：私の単語帳  
-操作対象OS：Android 9.0（Pixel 2 API 28）  
-開発環境/言語：Android Studio 4.1 / Java 8  
-SDK：API 29 Android 10.0(Q)	
+　アプリ名：私の単語帳  
+　操作対象OS：Android 9.0（Pixel 2 API 28）  
+　開発環境/言語：Android Studio 4.1 / Java 8  
+　SDK：API 29 Android 10.0(Q)	
 
 ## 機能一覧
 - 単語カードの保存機能  
@@ -16,7 +16,7 @@ SDK：API 29 Android 10.0(Q)
 
 ## ポイント
 ### コンセプト
-日本語・中国語の学習者のための暗記帳・単語帳アプリ
+　日本語・中国語の学習者のための暗記帳・単語帳アプリ
 
 ### こだわったポイント
 - 自分の進度と必要に応じて自分独自の単語帳を作れる  
